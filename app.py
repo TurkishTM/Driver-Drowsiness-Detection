@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 # Load the pre-trained model
-model = tf.keras.models.load_model(r'D:\Courses\DEPI\graduation Project\Datasets\DDD\DDD_model.h5')
+model = tf.keras.models.load_model(r'DDD_model.h5')
 
 # Define class labels (same as training)
 CLASSES = {0: "Closed", 1: "Open", 2: "no_yawn", 3: "yawn"}
