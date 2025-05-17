@@ -12,7 +12,7 @@ model = tf.keras.models.load_model(r'DDD_model.h5')
 CLASSES = {0: "Closed", 1: "Open", 2: "no_yawn", 3: "yawn"}
 
 # Streamlit UI
-st.title("Drowsiness Detection 🥱")
+st.title("Drowsiness Detection")
 st.write("Upload an image of a face to check for drowsiness.")
 
 # File uploader
